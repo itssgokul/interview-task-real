@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(244, 245, 246);
+}
+ .search{
+    display: block;
+ }
+nav{
+     background-color: white; 
+    /* box-shadow: 1px 0px 8px #888888; */
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    margin-right: 20px;
+}
+.navcontainer{
+    margin: 0 auto;
+
+}
+img{
+    margin: 20px 0;
+    cursor: pointer;
+
+}
+input{
+    width: 10rem;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    /* border: none; */
+    /* box-shadow: 2px 5px 10px inset #888888; */
+}
+
+.navcontainer li{
+    list-style-type: none;
+    /* margin: auto; */
+    padding: .7rem;
+    cursor: pointer;
+}
+li > span{
+    position: relative;
+    top: 7px;
+    margin-right: 7px;
+}
+.wholecontent{
+    display: flex;
+   
+}
+section{
+    width: 100%;
+
+}
+.subscriberdetails{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    margin: 10px;
+    line-height: 30px;
+}
+.call{
+    display: flex;
+    margin: auto 20px;
+}
+.call button{
+    margin: 5px;
+}
+button{
+    height: 29px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 7px;
+    color: blue;
+    background-color: white;
+
+}
+.dot{
+    border: 1px solid blue;
+    font-weight: 900;
+    padding-bottom: 30px;
+    /* padding: 30px; */
+    padding: 0  8px 27px 8px;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+hr{
+    width: 90%;
+    height: 2px;
+    margin: 10px 0 0 17px;
+    border-style: dashed;
+    color: rgb(172, 175, 179);
+
+}
+.horizontalline{
+    margin: 10px 1px;
+    display: flex;
+}
+/* after the horizontal line */
+.detailsnav ul{
+    display: flex;
+    /* margin: 0 15px; */
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 2px 5px 10px #888888; */
+    
+}
+h4{
+    display: inline;
+    font-weight: 300;
+}
+.detailsnav{
+    line-height: 30px;
+    border-bottom: 2px solid rgb(46, 46, 151);
+}
+.detailsnav li p span{
+    position: relative;
+    font-size: medium;
+    top: 5px;
+    margin-left: 2px;
+    color:orange;
+}
+.detailsnav li span{
+    color: rgb(105, 105, 250);
+}
+.detailsnav li{
+    width: 16.6%;
+    list-style: none;
+    text-align: center;
+    font-size: .8rem;
+    /* letter-spacing: .5px; */
+}
+.detailsnav li:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* details Nav 2 */
+.detailsnav2 ul {
+    display: flex;
+    margin: 10px 0;
+    background-color: white;
+    /* padding: 10px; */
+}
+.detailsnav2 li{
+    padding: 10px;
+    list-style-type: none;
+    width: 25%;
+    text-align: center;
+    font-weight: 500;
+}
+.detailsnav2 li:hover{
+    background-color:hsl(206, 95%, 92%);
+    cursor: pointer;
+    color: blue;
+    font-weight: 900;
+}
+
+
+
+/* chartssssss */
+.charts{
+    display: flex;
+
+
+}
+.chartdiv1{
+    height: 100px;
+    width: 70%;
+    display: flex;
+
+}
+.chartdiv2{
+    height: 100vh;
+    width: 400px
+}
+.chart1{
+    margin: 10px;
+    width: 50%;
+    height: 300px;
+    background-color: aqua;
+}
+.chart2{
+    margin: 10px;
+    height: 300px;
+    width: 50%;
+    background-color: black;
+}
+.lwantable{
+    margin: 10px;
+    height: 55vh;
+    background-color: white;
+    padding: 15px;
+
+}
+.dataspeed{
+    padding: 15px;
+    height: 18vh;
+    background-color: white;
+    margin: 10px;
+    /* line-height: 20px; */
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 5px;
+    margin-top: 20px;
+    /* text-align: center; */
+  }  
+td, th {
+    text-align: left;
+    padding: 4px;
+  }
+  tr:nth-child(odd) {
+    background-color: #f0f0f0;
+  }
+
+
+
+
+
+
+
+
+
+
+
