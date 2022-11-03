@@ -19,7 +19,7 @@ nav{
     margin: 0 auto;
 
 }
-img{
+.logo{
     margin: 20px 0;
     cursor: pointer;
 
@@ -36,18 +36,27 @@ input{
     padding: .7rem;
     cursor: pointer;
 }
+.menu li{
+    margin: auto;
+    padding-bottom: 20px;
+}
+.menu ul  :hover  {
+   background-color: rgb(179, 223, 252);
+   border-radius: 8px;
+   color: blue;
+}
 li > span{
     position: relative;
     top: 7px;
     margin-right: 7px;
 }
 .wholecontent{
+    height: 100vh;
     display: flex;
    
 }
 section{
     width: 100%;
-
 }
 .subscriberdetails{
     display: flex;
@@ -71,7 +80,6 @@ button{
     padding: 7px;
     color: blue;
     background-color: white;
-
 }
 .dot{
     border: 1px solid blue;
@@ -155,40 +163,67 @@ h4{
 
 /* chartssssss */
 .charts{
-    display: flex;          
+    display: flex;      
 }
 .chartdiv1{
-    width: 75%;
-    display: flex;
+    position: relative;
+    width: 70%;
+    /* display: flex; */
 }
 .chartdiv2{
-    width: 400px
+    width: 30%;
+}
+.SpeadLatencyTest{
+    display: flex;
+}
+.SpeadLatencyTest .lineone{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
 }
 .chart1{
-    margin: 10px;
-    width: 50%;
-    height: 300px;
-    background-color: aqua;
+    margin: 5px;
+}
+.chart1 img{
+    width: 100%;
+}
+.chart1 span{
+    margin-right: 10px;
+}
+.chart1 p{
+    color: grey;
+    font-size:smaller;
+}
+.latenccyhead .alert{
+    background-color: rgb(201, 208, 72);
+    font-size: large;
+    color: black;
+    
+}
+.chart2 p{
+    color: grey;
+    font-size:smaller;
 }
 .chart2{
-    margin: 10px;
-    height: 300px;
-    width: 50%;
-    background-color: black;
+    margin: 5px;
+}
+.chart2 img{
+    width: 100%;
+}
+.bandwidth img{    
+    width: 100%;
 }
 .lwantable{
     margin: 10px;
-    /* height: 55vh; */
     background-color: white;
     padding: 15px;
 
 }
 .dataspeed{
     padding: 15px;
-    /* height: 18vh; */
     background-color: white;
     margin: 10px;
-    /* line-height: 20px; */
 }
 table {
     border-collapse: collapse;
@@ -203,6 +238,7 @@ td, th {
   tr:nth-child(odd) {
     background-color: #f0f0f0;
   }
+
 
 
 
