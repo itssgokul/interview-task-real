@@ -11,9 +11,7 @@ body{
  }
 nav{
      background-color: white; 
-    /* box-shadow: 1px 0px 8px #888888; */
-    width: 25%;
-    height: 100vh;
+     width: 250px;
     display: flex;
     margin-right: 20px;
 }
@@ -31,13 +29,10 @@ input{
     height: 30px;
     margin-bottom: 10px;
     border-radius: 20px;
-    /* border: none; */
-    /* box-shadow: 2px 5px 10px inset #888888; */
 }
 
 .navcontainer li{
     list-style-type: none;
-    /* margin: auto; */
     padding: .7rem;
     cursor: pointer;
 }
@@ -82,7 +77,6 @@ button{
     border: 1px solid blue;
     font-weight: 900;
     padding-bottom: 30px;
-    /* padding: 30px; */
     padding: 0  8px 27px 8px;
 }
 button:hover{
@@ -104,9 +98,7 @@ hr{
 /* after the horizontal line */
 .detailsnav ul{
     display: flex;
-    /* margin: 0 15px; */
     background-color: rgb(255, 255, 255);
-    /* box-shadow: 2px 5px 10px #888888; */
     
 }
 h4{
@@ -132,7 +124,6 @@ h4{
     list-style: none;
     text-align: center;
     font-size: .8rem;
-    /* letter-spacing: .5px; */
 }
 .detailsnav li:hover{
     background-color: blue;
@@ -140,13 +131,11 @@ h4{
     cursor: pointer;
 }
 
-
 /* details Nav 2 */
 .detailsnav2 ul {
     display: flex;
     margin: 10px 0;
     background-color: white;
-    /* padding: 10px; */
 }
 .detailsnav2 li{
     padding: 10px;
@@ -166,18 +155,13 @@ h4{
 
 /* chartssssss */
 .charts{
-    display: flex;
-
-
+    display: flex;          
 }
 .chartdiv1{
-    height: 100px;
-    width: 70%;
+    width: 75%;
     display: flex;
-
 }
 .chartdiv2{
-    height: 100vh;
     width: 400px
 }
 .chart1{
@@ -194,14 +178,14 @@ h4{
 }
 .lwantable{
     margin: 10px;
-    height: 55vh;
+    /* height: 55vh; */
     background-color: white;
     padding: 15px;
 
 }
 .dataspeed{
     padding: 15px;
-    height: 18vh;
+    /* height: 18vh; */
     background-color: white;
     margin: 10px;
     /* line-height: 20px; */
@@ -211,7 +195,6 @@ table {
     width: 100%;
     margin: 5px;
     margin-top: 20px;
-    /* text-align: center; */
   }  
 td, th {
     text-align: left;
